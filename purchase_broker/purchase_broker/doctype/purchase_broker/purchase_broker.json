@@ -2,7 +2,6 @@
     "doctype": "DocType",
     "name": "Purchase Broker",
     "module": "purchase_broker",
-    "__module": "purchase_broker.purchase_broker",
     "custom": 1,
     "fields": [
       {
@@ -49,3 +48,4 @@
     ],
     "istable": 0
   }
+  
