@@ -3,7 +3,7 @@ app_title = "Purchase Broker"
 app_publisher = "Your Name"
 app_description = "Custom app for managing purchase broker contracts"
 app_email = "email@example.com"
-app_license = "MIT"
+app_license = "MIT."
 
 app_include_js = []
 app_include_css = []
