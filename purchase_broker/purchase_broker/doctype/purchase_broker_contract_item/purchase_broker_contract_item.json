@@ -1,0 +1,60 @@
+{
+    "doctype": "DocType",
+    "name": "Purchase Broker Contract Item",
+    "module": "purchase_broker",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "item_code",
+            "fieldtype": "Link",
+            "label": "Item Code",
+            "options": "Item"
+        },
+        {
+            "fieldname": "item_name",
+            "fieldtype": "Data",
+            "label": "Item Name"
+        },
+        {
+            "fieldname": "uom",
+            "fieldtype": "Link",
+            "label": "UOM",
+            "options": "UOM"
+        },
+        {
+            "fieldname": "contract_qty",
+            "fieldtype": "Float",
+            "label": "Contract Quantity"
+        },
+        {
+            "fieldname": "rate",
+            "fieldtype": "Currency",
+            "label": "Rate"
+        },
+        {
+            "fieldname": "contract_value",
+            "fieldtype": "Currency",
+            "label": "Contract Value"
+        },
+        {
+            "fieldname": "supplied_qty",
+            "fieldtype": "Float",
+            "label": "Quantity Supplied"
+        },
+        {
+            "fieldname": "pending_qty",
+            "fieldtype": "Float",
+            "label": "Pending Quantity"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ],
+    "istable": 1
+}

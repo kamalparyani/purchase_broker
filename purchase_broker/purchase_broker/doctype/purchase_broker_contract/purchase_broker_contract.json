@@ -1,0 +1,58 @@
+{
+    "doctype": "DocType",
+    "name": "Purchase Broker Contract",
+    "module": "purchase_broker",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "contract_date",
+            "fieldtype": "Date",
+            "label": "Contract Date"
+        },
+        {
+            "fieldname": "purchase_broker",
+            "fieldtype": "Link",
+            "label": "Purchase Broker",
+            "options": "Purchase Broker"
+        },
+        {
+            "fieldname": "supplier",
+            "fieldtype": "Link",
+            "label": "Supplier",
+            "options": "Supplier"
+        },
+        {
+            "fieldname": "company",
+            "fieldtype": "Link",
+            "label": "Company",
+            "options": "Company"
+        },
+        {
+            "fieldname": "remarks",
+            "fieldtype": "Small Text",
+            "label": "Remarks"
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Draft\nActive\nClosed\nCancelled"
+        },
+        {
+            "fieldname": "contract_items",
+            "fieldtype": "Table",
+            "label": "Contract Items",
+            "options": "Purchase Broker Contract Item"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ],
+    "istable": 0
+}
