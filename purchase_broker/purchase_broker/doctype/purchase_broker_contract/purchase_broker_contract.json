@@ -2,7 +2,6 @@
     "doctype": "DocType",
     "name": "Purchase Broker Contract",
     "module": "purchase_broker",
-    "custom": 1,
     "fields": [
         {
             "fieldname": "contract_date",

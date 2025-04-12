@@ -3,7 +3,6 @@
     "name": "Purchase Broker",
     "module": "purchase_broker",
     "__module": "purchase_broker.purchase_broker",
-    "custom": 1,
     "fields": [
       {
         "fieldname": "broker_name",

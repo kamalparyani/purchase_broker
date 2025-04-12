@@ -2,7 +2,6 @@
     "doctype": "DocType",
     "name": "Purchase Broker",
     "module": "purchase_broker",
-    "custom": 1,
     "fields": [
       {
         "fieldname": "broker_name",
