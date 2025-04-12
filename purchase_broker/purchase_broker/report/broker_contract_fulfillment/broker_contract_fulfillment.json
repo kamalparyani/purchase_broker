@@ -1,8 +1,9 @@
 {
     "doctype": "Report",
+    "name": "Broker Contract Fulfillment",
     "report_name": "Broker Contract Fulfillment",
     "ref_doctype": "Purchase Broker Contract",
     "report_type": "Script Report",
     "is_standard": "No",
     "module": "purchase_broker"
-}
+  }
